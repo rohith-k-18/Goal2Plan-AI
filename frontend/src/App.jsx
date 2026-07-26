@@ -15,7 +15,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        "http://127.0.0.1:8000/generate",
+        "https://goal2plan-ai.onrender.com/generate",
         {
           goal: goal,
           syllabus: syllabus,
